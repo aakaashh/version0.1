@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "org.coenraets.employeedirectory"
+        versionCode = "10"
+        version     = "0.1">
+ 
+    <name>aaalamarangal 0.1</name>
+ 
+    <description>
+        aaalamarangal
+    </description>
+ 
+    <author href="" email="aakaashh.s@gmail.com">
+       AKASH
+	</author>
+ 
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
+</widget>
