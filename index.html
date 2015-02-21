@@ -22,63 +22,78 @@
 		</head>
 
 	<body>
-		<div>
-			<div data-role="header">
-				<h1>Aaalamarangal</h1>
-			</div>
-			
+		
 			<div data-role="page" id="index">
+				
+				<div data-role="header">
+				<h1>Aaalamarangal</h1>
+				</div>
+			
+			<div data-role="main" class="ui-content">
+				
 			<ul>
 				<li>
-					<a href="">
+					<a href="#food" data-transition="slide">
 						Food
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#water" data-transition="slide">
 						Water
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#rest" data-transition="slide">
 						Rest
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#exercise" data-transition="slide">
 						Exercise
 					</a>
 				</li>
 			</ul>
 			</div>
+			</div>
 			
 			
-			<div id="food" data-role="page">
-				
+			<div id="food" data-role="page" data-add-back-btn="true">
+				<div data-role="header">
+<!--						<a href="#index" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-l ui-btn-icon-left"></a>-->
+				<h1>Food timings</h1>
+			</div>
+			
+
 				
 			</div>
 			
-			<div id="water" data-role="page">
+			<div id="water" data-role="page" data-add-back-btn="true">
 				
-				
-				
-			</div>
-			<div id="rest" data-role="page">
-				
-				
+				<div data-role="header">
+				<h1>Water timings</h1>
 			</div>
 			
-			<div id="exercise" data-role="page">
-				
-				
+
 				
 			</div>
+			<div id="rest" data-role="page" data-add-back-btn="true">
+				
+				<div data-role="header">
+				<h1>Rest timings</h1>
+			</div>
 			
-			<footer>
-				<p>
-					&copy; Copyright  by AKASH
-				</p>
-			</footer>
+
+			</div>
+			
+			<div id="exercise" data-role="page" data-add-back-btn="true">
+				<div data-role="header">
+				<h1>Exercise timimgs</h1>
+			</div>
+			
+
+				
+				
+		
 		</div>
 	</body>
 
